@@ -10,17 +10,76 @@
   <link rel="stylesheet" href="temp/styles/styles.css">
 </head>
 <body>
-    <header>
-      <img src="assets/images/logo.jpg" alt="">
-      <nav>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="#">About Us</a></li>
-          <li><a href="#">Service</a></li>
-          <li><a href="#">Contact Us</a></li>
-        </ul>
-      </nav>
+    <header class="greentech-header">
+      <div class="wrapper">
+          <div class="greentech-header__logo">
+              <img src="assets/images/logo.jpg" alt="">
+          </div>
+          <nav class="primary-nav primary-nav--pull-right">
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="contact/contact.html">About Us</a></li>
+              <li><a href="#">Service</a></li>
+              <li><a href="#">Contact Us</a></li>
+            </ul>
+          </nav>
+      </div>
     </header>
-    
+    <div class="larze-hero">
+      <img src="assets/images/banner01.jpg">
+      <div class="larze-hero__text-content">
+          <h1>We Are Creative</h1>
+          <h2>Software Service Provider</h2>
+          <p>Focus on Creative & Result Driven Solutions</p>
+      </div>
+    </div>
+    <div class="about-greentech page-section">
+        <img src="assets/images/our-start.jpg">
+        <h1>About Us</h1>
+        <p>Green Tech Solution is an IT solution provider with successful track record of delivering on time, on-budget IT solutions encompassing a broad range of industry verticals. Our intention is to provide fully interactive and cost effective solutions by establishing a bridge between latest technologies.</p>
+    </div>
+    <div class="greentech-service page-section"> 
+        <h1>Our Services</h1>
+        <div class="greentech-service__item">
+          <span></span>
+          <h2>ERP Application</h2>
+          <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour</p>
+        </div>
+        <div class="greentech-service__item">
+          <span></span>
+          <h2>Financial Application Development and Integration</h2>
+          <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour</p>
+        </div>
+        <div class="greentech-service__item">
+          <span></span>
+          <h2>Report design and development</h2>
+          <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour</p>
+        </div>
+        <div class="greentech-service__item">
+          <span></span>
+          <h2>E-Commerce Solutions</h2>
+          <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour</p>
+        </div>
+        <div class="greentech-service__item">
+          <span></span>
+          <h2>Mobile Application Development</h2>
+          <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour</p>
+        </div>
+        <div class="greentech-service__item">
+          <span></span>
+          <h2>Content Management Systems</h2>
+          <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour</p>
+        </div>
+    </div>
+    <div class="greentech-contactus">
+        <h2><span>Contact</span> Us</h2>
+        <form id="contact-form" method="post" action="">
+            <input type="text" name="name" placeholder="Name *" >
+            <input type="email" name="email" placeholder="Email *">
+            <input type="text" name="subject" placeholder="Subject *">
+            <textarea name="message" class="form-control" placeholder="Message *" rows="4"></textarea>
+            <button class="btn btn-send" value="">Send message</button>                   
+        </form>
+    </div>
 </body>
 </html>

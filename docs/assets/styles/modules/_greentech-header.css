@@ -1,0 +1,15 @@
+.greentech-header{
+    /* position: absolute; */
+    /* background-color: rgba($mainBlue, 0.3); */
+    width: 100%;
+    &__logo{
+        position: absolute;
+        background-color: $mainBlue;
+        top:0px;
+        z-index: 3;
+        img{
+            display: block;
+        }
+    }
+    @mixin clearfix;
+}

@@ -1,0 +1,25 @@
+.primary-nav{
+    &--pull-right{
+        float: right; 
+    }
+    ul{
+        margin: 0px;
+        padding: 25px 0px;
+        @mixin clearfix;
+    }
+    li{
+        list-style: none;
+        float: left;
+        padding-right: 15px;
+    }
+    a{
+        color: #000;
+        text-decoration: none;
+        font-weight: 400;
+        display: block;
+        padding: 10px 0px;
+    }
+    a:hover{
+        color: $mainLightRed;
+    }
+}
