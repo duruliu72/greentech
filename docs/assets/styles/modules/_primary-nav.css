@@ -13,7 +13,7 @@
         padding-right: 15px;
     }
     a{
-        color: #000;
+        color:$mainBlue;
         text-decoration: none;
         font-weight: 400;
         display: block;

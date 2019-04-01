@@ -368,16 +368,12 @@ a{
  }
 
 .wrapper{
+    max-width: 1200px;
+    padding-left: 18px;
+    padding-right: 18px;
     margin-left: auto;
     margin-right: auto;
 }
-
-@media (min-width:800px){
-
-.wrapper{
-        width: 768px
-}
-    }
 
 .primary-nav--pull-right{
         float: right; 
@@ -401,7 +397,7 @@ a{
     }
 
 .primary-nav a{
-        color: #000;
+        color:#2f5572;
         text-decoration: none;
         font-weight: 400;
         display: block;
@@ -439,6 +435,10 @@ a{
     position: relative;
 }
 
+.larze-hero img{
+        width: 100%;
+    }
+
 .larze-hero__text-content{
         position: absolute;
         top:50%;
@@ -449,6 +449,69 @@ a{
                 transform:translateY(-50%);
     }
 
+.larze-hero__title{
+        font-size: 1.875rem;
+        color:#479410;
+        margin: 0;
+        letter-spacing: 4px;
+        font-weight: 600;
+    }
+
+.larze-hero__title--larze{
+        margin: 10px 0;
+        font-size: 3.125rem;
+        font-weight: 800;
+        font-family: inherit;
+        word-spacing: 2px;
+        letter-spacing: 2px;
+        color: #fff;
+        line-height: 1.5;
+        text-transform: capitalize;
+    }
+
+.larze-hero__description{
+        font-size: 16px;
+        font-weight: 400;
+        color: #fff;
+        letter-spacing: 1px;
+        word-spacing: 2px;
+    }
+
 .page-section{
     padding: 4.5rem 0px;
 }
+
+.headline{
+    font-weight: 300;
+    font-size: 2.875rem;
+    color: #2f5572;
+}
+
+@media (min-width:800px){
+        .headline--until-medium{
+            margin: 0px;
+        }
+    }
+
+@media (min-width:800px){
+        .row--gutters{
+            margin-right: -65px;
+        }
+        .row--gutters > div{
+            padding-right: 65px;
+        }
+        .row__medium-4{
+            float: left;
+            width: 33.33%;
+        }
+        .row__medium-8{
+            float: left;
+            width: 66.66%;
+        }
+    }
+
+.row::after{
+        content: "";
+        display:table;
+        clear: both;
+    }
