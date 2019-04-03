@@ -564,6 +564,16 @@ a{
         margin-bottom:25px;
     }
 
+.greentech-service__item:hover{
+            background: #e74c3c;
+            color: #fff;
+            transition: .7s;
+        }
+
+.greentech-service__item:hover p{
+                color: #ffffff; 
+            }
+
 .greentech-service__title{
         padding-top: 25px;
         text-align: center;
@@ -625,9 +635,11 @@ a{
         clear: both;
     }
 
-.greentech-contactus{
-    
-}
+.greentech-contactus p{
+        font-weight: 300;
+        line-height: 1.8;
+        color: #000000;
+    }
 
 .form-group{
     margin-bottom: 15px;
@@ -649,4 +661,9 @@ a{
         line-height: 1.42857143;
         text-align: center;
         display: inline-block;
+    }
+
+.footer__bottom{
+        padding: 8px 0px;
+        background-color: #1f1f1f;
     }

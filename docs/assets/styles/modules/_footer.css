@@ -1,0 +1,6 @@
+.footer{
+    &__bottom{
+        padding: 8px 0px;
+        background-color: #1f1f1f;
+    }
+}

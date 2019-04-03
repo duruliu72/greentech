@@ -6,6 +6,14 @@
         padding:0px 25px;
         box-shadow: 1px 1px 5px rgba(20, 20, 20, 0.4);
         margin-bottom:25px;
+        &:hover{
+            background: #e74c3c;
+            color: #fff;
+            transition: .7s;
+            p{
+                color: #ffffff; 
+            }
+        }
     }
     &__title{
         padding-top: 25px;
