@@ -26,11 +26,16 @@
       </div>
     </header>
     <div class="larze-hero">
-      <img src="assets/images/banner01.jpg">
+      <picture>
+        <source  srcset="assets/images/hero--large.jpg" media="(min-width: 1380px)">
+        <source  srcset="assets/images/hero--medium.jpg" media="(min-width: 990px)">
+        <source  srcset="assets/images/hero--small.jpg" media="(min-width: 640px)">
+        <img src="assets/images/hero--smaller.jpg" alt="learge Zero Pictures">
+      </picture>
       <div class="larze-hero__text-content">
           <h3 class="larze-hero__title">We Are Creative</h3>
           <h2 class="larze-hero__title larze-hero__title--larze">Software Service Provider</h2>
-          <p class="larze-hero__description">Focus on Creative & Result Driven Solutions</p>
+          <p class="larze-hero__description">Focus on Creative & Result Driven Solutions </p>
       </div>
     </div>
     <div class="about-greentech page-section">
