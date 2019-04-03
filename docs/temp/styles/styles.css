@@ -537,25 +537,116 @@ a{
         }
     }
 
+.headline--center{
+        text-align: center;
+        margin:0px 0px 4.5rem 0px;
+    }
+
+.headline--contact{
+        font-size: 1.875rem;
+    }
+
+.about-greentech p{
+        font-weight: 300;
+        line-height: 1.8;
+        color: #000000;
+    }
+
+.greentech-service{
+    background: #efefef;
+}
+
+.greentech-service__item{
+        background: #efefef;
+        min-height: 250px;
+        padding:0px 25px;
+        box-shadow: 1px 1px 5px rgba(20, 20, 20, 0.4);
+        margin-bottom:25px;
+    }
+
+.greentech-service__title{
+        padding-top: 25px;
+        text-align: center;
+        font-weight: 400;
+        font-size: 20px;
+        text-transform: capitalize;
+        line-height: 1.5;
+        margin: 0;
+    }
+
+.greentech-service p{
+        font-weight: 300;
+        line-height: 1.8;
+        color: #000000;
+    }
+
 @media (min-width:800px){
         .row--gutters{
-            margin-right: -65px;
+            margin-right: -32.5px;
+            margin-left: -32.5px;
         }
         .row--gutters > div{
-            padding-right: 65px;
+            padding-right: 32.5px;
+            padding-left: 32.5px;
+        }
+        .row--medium-gutters{
+            margin-right: -15px;
+            margin-left: -15px;
+        }
+        .row--medium-gutters >div{
+            padding-right: 15px;
+            padding-left: 15px;
         }
         .row__medium-4{
             float: left;
-            width: 33.33%;
+            width: 33.33333333%;
+            min-height: 1px;
+        }
+        .row__medium-6{
+            float: left;
+            width: 50%;
+            min-height: 1px;
         }
         .row__medium-8{
             float: left;
-            width: 66.66%;
+            width: 66.66666666%;
         }
+    }
+
+.row::before{
+        content: "";
+        display:table;
+        clear: both;
     }
 
 .row::after{
         content: "";
         display:table;
         clear: both;
+    }
+
+.greentech-contactus{
+    
+}
+
+.form-group{
+    margin-bottom: 15px;
+}
+
+.form-group input{
+        width: 100%;
+        padding:7px 8px;
+    }
+
+.form-group textarea{
+        width: 100%;
+    }
+
+.btn--submit{
+        margin-bottom: 0;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 1.42857143;
+        text-align: center;
+        display: inline-block;
     }

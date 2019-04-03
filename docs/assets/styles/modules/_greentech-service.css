@@ -1,0 +1,24 @@
+.greentech-service{
+    background: #efefef;
+    &__item{
+        background: #efefef;
+        min-height: 250px;
+        padding:0px 25px;
+        box-shadow: 1px 1px 5px rgba(20, 20, 20, 0.4);
+        margin-bottom:25px;
+    }
+    &__title{
+        padding-top: 25px;
+        text-align: center;
+        font-weight: 400;
+        font-size: 20px;
+        text-transform: capitalize;
+        line-height: 1.5;
+        margin: 0;
+    }
+    p{
+        font-weight: 300;
+        line-height: 1.8;
+        color: #000000;
+    }
+}

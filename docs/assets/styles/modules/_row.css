@@ -1,19 +1,36 @@
 .row{
     @mixin atMedium{
         &--gutters{
-            margin-right: -65px;
+            margin-right: -32.5px;
+            margin-left: -32.5px;
         }
         &--gutters > div{
-            padding-right: 65px;
+            padding-right: 32.5px;
+            padding-left: 32.5px;
+        }
+        &--medium-gutters{
+            margin-right: -15px;
+            margin-left: -15px;
+        }
+        &--medium-gutters >div{
+            padding-right: 15px;
+            padding-left: 15px;
         }
         &__medium-4{
             float: left;
-            width: 33.33%;
+            width: 33.33333333%;
+            min-height: 1px;
+        }
+        &__medium-6{
+            float: left;
+            width: 50%;
+            min-height: 1px;
         }
         &__medium-8{
             float: left;
-            width: 66.66%;
+            width: 66.66666666%;
         }
     }
-    @mixin clearfix;
+    @mixin before;
+    @mixin after;
 }

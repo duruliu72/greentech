@@ -22,3 +22,18 @@
         clear: both;
     }
 }
+
+@define-mixin before{
+    &::before{
+        content: "";
+        display:table;
+        clear: both;
+    }
+}
+@define-mixin after{
+    &::after{
+        content: "";
+        display:table;
+        clear: both;
+    }
+}
